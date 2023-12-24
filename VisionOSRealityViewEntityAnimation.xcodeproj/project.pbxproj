@@ -13,6 +13,7 @@
 		1A2DB9FD2B387523008BAE3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A2DB9FC2B387523008BAE3A /* Assets.xcassets */; };
 		1A2DBA002B387523008BAE3A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A2DB9FF2B387523008BAE3A /* Preview Assets.xcassets */; };
 		1A2DBA0B2B387523008BAE3A /* VisionOSRealityViewEntityAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2DBA0A2B387523008BAE3A /* VisionOSRealityViewEntityAnimationTests.swift */; };
+		1A2DBA152B387573008BAE3A /* toy_drummer_idle.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 1A2DBA142B387573008BAE3A /* toy_drummer_idle.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 		1A2DBA012B387523008BAE3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A2DBA062B387523008BAE3A /* VisionOSRealityViewEntityAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisionOSRealityViewEntityAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A2DBA0A2B387523008BAE3A /* VisionOSRealityViewEntityAnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionOSRealityViewEntityAnimationTests.swift; sourceTree = "<group>"; };
+		1A2DBA142B387573008BAE3A /* toy_drummer_idle.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_drummer_idle.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 		1A2DB9F32B387522008BAE3A /* VisionOSRealityViewEntityAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				1A2DBA142B387573008BAE3A /* toy_drummer_idle.usdz */,
 				1A2DB9F82B387522008BAE3A /* VisionOSRealityViewEntityAnimationApp.swift */,
 				1A2DB9FA2B387522008BAE3A /* ContentView.swift */,
 				1A2DB9FC2B387523008BAE3A /* Assets.xcassets */,
@@ -196,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A2DBA002B387523008BAE3A /* Preview Assets.xcassets in Resources */,
+				1A2DBA152B387573008BAE3A /* toy_drummer_idle.usdz in Resources */,
 				1A2DB9FD2B387523008BAE3A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

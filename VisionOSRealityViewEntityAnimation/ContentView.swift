@@ -7,17 +7,20 @@
 
 import SwiftUI
 import RealityKit
-import RealityKitContent
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Model3D(named: "Scene", bundle: realityKitContentBundle)
-                .padding(.bottom, 50)
-
-            Text("Hello, world!")
-        }
-        .padding()
+        RealityView { content in
+            do {
+                let entity = try await Entity(named: "toy_drummer_idle")
+                let animation = entity.availableAnimations[0]
+                entity.playAnimation(animation.repeat())
+                content.add(entity)
+            } catch {
+                print("Entity encountered an error while loading the model.")
+                return
+            }
+         }
     }
 }
 
